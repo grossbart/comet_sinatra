@@ -18,6 +18,16 @@ After this, you can start the web server like this:
     ruby app.rb
 
 
+Usage
+-----
+
+Point your browser to the right URL (look at your terminal output). An example:
+
+    http://localhost:4567
+
+Open up another browser using the same URL and start drawing. Both browsers should display the same drawing!
+
+
 Explanation
 -----------
 
