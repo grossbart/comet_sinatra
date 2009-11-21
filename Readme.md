@@ -1,17 +1,15 @@
 Comet Sinatra
 =======================================
 
-This is a small push-server example for Sinatra. I did this mostly for me in order to understand, how such a server can be implemented. There are certainly more robust ways to achieve this. Ask Google.
+This is a small push-server example for Sinatra. I did this mostly for me in order to understand how such a server could be implemented. There are certainly more robust ways to achieve this. Ask Google.
 
 
 Installation
 ------------
 
-You need to have the Thin, Sinatra and JSON gems installed:
+You need to have several gems, install them as follows:
 
-    sudo gem install thin
-    sudo gem install sinatra
-    sudo gem install json
+    sudo gem install eventmachine thin sinatra json uuid
 
 After this, you can start the web server like this:
 
